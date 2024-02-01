@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-Groceries</title>
+    <link rel="stylesheet" href="CSS/style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@400;700&family=Quicksand:wght@500;700&family=Roboto+Slab:wght@700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+    <nav>
+        <div class="wrapper">
+            <div class="logo"><a href="">E-Groceries</a></div>
+            <div class="menu">
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#our-package">Our Packages</a></li>
+                    <li><a href="#call-us">Call Us</a></li>
+                </ul>
+            </div>
+        </div>
+        
+    </nav>
+    <div class="wrapper">
+
+    <!--Bag. Home-->
+        <section id="home">
+            <div class="tengah">
+                <h2>Top Rated E-Groceries Shop in Indonesian</h2>
+                <P style="font-size: larger"> Every Day with best ingredients</P>
+            </div>
+        </section>
+    
+     <section id="mid">
+        <div class="kolom">
+            <div class="image"> 
+                <div class="slider">
+                    <div class="slides">
+
+                        <input type="radio" name="radio-btn" id="radio1">
+                        <input type="radio" name="radio-btn" id="radio2">
+                        <input type="radio" name="radio-btn" id="radio3">
+
+                        <div class="slide first">
+                            <img src="https://cdn.gencraft.com/prod/user/817bb164-4bce-48df-ac0a-f9f2e118b7fc/b95a162a-ae8d-4f20-93eb-71bd8329157c/image/image1_0.jpg?Expires=1706870792&Signature=hbu-ZTKoD5BqOAbqVwIBTU9wXrQSsJT8mQ6h-WdpKtQXYqFHkapN63JRQREZEXgMeVSiVSHHKaP6OTUvFt2Ql3JFn5NxLf1JJbapXfbGV80ACbB8P2x4YMtPOEkYCwaCdxuNJ-1U~3BhKPVKRWIuFLNWmBlFqOyola7HYCHphnPYgPtXrnQ6jTJ3wzIhfrc80MwD7eApUAks0POB4WqTp88ZhUZ~8c32f8hEOkClqbXU~2KECOxhFEH2LR~trJpQCZpuPF1Gj-AUahhxBhNj-2RStaYFmPEg~tzab-v8a0AhtgGGhDjKx0hTcuFwj4wkrNcQ5gx9hew1cjBKNBUJZg__&Key-Pair-Id=K3RDDB1TZ8BHT8" alt="setiap hari beli sayur buah yang fresh disini">
+                        </div>
+                        <div class="slide">
+                            <img src="https://i.pinimg.com/564x/ad/f6/b1/adf6b143e5951f35940c44cb580ce8b2.jpg" alt="setiap hari beli sayur buah yang fresh disini">
+                        </div>
+                        <div class="slide">
+                            <img src="https://cdn.gencraft.com/prod/user/817bb164-4bce-48df-ac0a-f9f2e118b7fc/cfad9a07-8679-4879-b9bf-2c9e670b6133/image/image0_0.jpg?Expires=1706870835&Signature=EdCDLx3KvyjyC8~nDJviIQMjp~3LXDH044jELsypaXP87O6nbEUCiXn9TuoiprPAMd3bepiXK-cAL93C0SJ0rcLefyXXkgJQLFWyn1BXMNytBLY0RFYIdi-a5oNOdedzRIkqvuQq16XP1KLcrwKJ5TWgIwBgEvwuUIx2tRbLsHlRf47m10SwQHfoGG~vtmiUhdt1lRcYNQ0ltuE1nxC72DnrLuTB35al-RFQ0u9Vh8fwdYl3hu0zua616FFCG3pzruTLtD5D2Cl7wsswl6r7IwUvZoHu0yRxwvcq01KlF8BVnPnWaHl~fuBgsFnusmMFIVh3OMuNYI2Kx~CSuw2O2w__&Key-Pair-Id=K3RDDB1TZ8BHT8" alt="setiap hari beli sayur buah yang fresh disini">
+                        </div>
+
+                        <div class="navigation-auto">
+                            <div class="auto-btn1"></div>
+                            <div class="auto-btn2"></div>
+                            <div class="auto-btn3"></div>
+                        </div>
+                        
+                    </div>
+                    <div class="navigation-manual"> 
+                        <label for="radio1" class="manual-btn"></label>
+                        <label for="radio2" class="manual-btn"></label>
+                        <label for="radio3" class="manual-btn"></label>
+                    </div>
+                </div>
+            <p style="margin-left: 30%;">"setiap hari beli sayur buah yang fresh disini"</p>
+            </div>
+            <form id="contact-form" style="margin-left:20px ;">
+                <h2 style="font-size: 50px; margin-top: 5px;">Contact Us</h2>
+                <p style="font-size: 15px;">sales akan menghubungi anda 1 x 24 jam setelah data kami terima</p>
+                <form id="stakeholder-form">
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" required>
+            
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+            
+                    <label for="phone">Phone Number:</label>
+                    <input type="tel" id="phone" name="phone" pattern="^08[0-9]{9}$" required>
+            
+                    <label for="message">Message:</label>
+                    <textarea id="message" name="message" rows="4" cols="50" required></textarea>
+            
+                    <input type="submit" value="Submit">
+                </form>
+        </div>
+     </section>
+
+     <div id="our-package">
+        <div class="tengah">
+            <div class="package">
+                <div class="footer-section">
+                    <h2>Our Package</h2>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="package">
+        <div class="package1">
+        <p style="font-weight: bolder; font-size: larger;">Fresh vegetables</p>
+        <p>Segala jenis sayuran ada disini</p>
+        </div>
+        <div class="package2">
+        <p style="font-weight: bolder; font-size: larger;">Fresh Fruit</p>
+        <p>Segala jenis Buah-Buahan ada disini</p>
+        </div>
+        <div class="package3">
+        <p style="font-weight: bolder; font-size: larger;">Instant Delivery</p>
+        <p>Pengiriman cepat tanpa takut terlambat...</p>
+        </div>
+    </div>
+    <script src="js/script.js"></script>
+</body>
+</html>
